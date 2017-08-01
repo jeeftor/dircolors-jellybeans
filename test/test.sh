@@ -18,6 +18,7 @@ EXAMPLES=(
   image
   audio
   video
+  jeff
 )
 
 ARCHIVE_FILES=(
@@ -26,8 +27,8 @@ ARCHIVE_FILES=(
 )
 
 CODE_FILES=(
-  main.rb main.go main.c main.cpp main.lua
-  Rakefile Gemfile Makefile config.ru
+  main.rb main.go main.c main.cpp main.lua header.h
+  Rakefile Gemfile Makefile config.ru test.swift 
 )
 
 TEMPLATE_FILES=(
@@ -35,7 +36,7 @@ TEMPLATE_FILES=(
 )
 
 DOCUMENT_FILES=(
-  LICENSE README readme.txt doc.markdown doc.md doc.nfo data.csv data.txt data.xml data.json data.yml
+  LICENSE README readme.txt doc.markdown doc.md doc.nfo data.csv data.txt data.xml data.json data.yml word.docx file.ppt
 )
 
 SPECIAL_FILES=(
@@ -58,6 +59,10 @@ VIDEO_FILES=(
 IMAGE_FILES=(
   .jpg .JPG .jpeg .gif .bmp .png .svg
   .mng .pcx .eps .CR2 .ico
+)
+
+JEFF_FILES=(
+  Vagrantfile Fastfile Dockerfile docker-compose.yaml docker-compose.yml Vagrantfile-release
 )
 
 # First clear the screen, then show current date
