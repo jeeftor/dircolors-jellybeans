@@ -105,7 +105,11 @@ EXEC 0;38;5;2
 .ru              01;38;5;009
 .lua             01;38;5;025
 .sh              01;38;5;067
+.zsh              01;38;5;067
 
+# source control
+# *.gitignore
+# *.gitmodules
 
 # Apple / IOS
 .swift           01;38;5;009
